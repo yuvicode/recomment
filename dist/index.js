@@ -1,14 +1,15 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Comments = undefined;
+Object.defineProperty(exports, "Comments", {
+  enumerable: true,
+  get: function get() {
+    return _Comments.default;
+  }
+});
 
-var _Comments = require('./Comments');
-
-var _Comments2 = _interopRequireDefault(_Comments);
+var _Comments = _interopRequireDefault(require("./Comments"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.Comments = _Comments2.default;
