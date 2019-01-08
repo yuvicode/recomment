@@ -2,10 +2,9 @@
   "name": "recomment",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "./lib/index.js",
   "scripts": {
-    "build-win": "babel lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
-    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__"
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -18,19 +17,21 @@
   },
   "homepage": "https://github.com/yuvicode/recomment#readme",
   "peerDependencies": {
-    "react": "^16.4.2"
-  },
-  "dependencies": {
-    "react": "^16.4.2",
-    "webpack": "^2.6.1"
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
-    "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.0",
-    "react": "^16.4.2",
-    "webpack": "^2.6.1"
+    "babel-core": "^6.21.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "path": "^0.12.7",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "webpack": "^4.28.1",
+    "webpack-cli": "^3.2.1"
   }
 }
