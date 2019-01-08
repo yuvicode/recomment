@@ -1,0 +1,38 @@
+{
+  "name": "recomment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuvicode/recomment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuvicode/recomment/issues"
+  },
+  "homepage": "https://github.com/yuvicode/recomment#readme",
+  "peerDependencies": {
+    "react": "^16.4.2"
+  },
+  "dependencies": {
+    "react": "^16.4.2",
+    "webpack": "^2.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "react": "^16.4.2",
+    "webpack": "^2.6.1"
+  }
+}
