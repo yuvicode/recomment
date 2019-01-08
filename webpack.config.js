@@ -1,7 +1,7 @@
 var path = require('path');
 
 module.exports = {
-  entry: 'src/index.jsx',
+  entry: './src/index.jsx',
   output: {
     path: path.resolve('lib'),
     filename: 'index.js',
